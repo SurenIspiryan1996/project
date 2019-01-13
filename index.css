@@ -1,0 +1,152 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+		/* header part */
+
+#header{
+	height: 80px;
+	background-color: #181818;
+}
+#HeaderLeft{
+	height: 80px;
+	width: 50%;
+	margin-left: 10%;
+}
+#text{
+	color: white;
+	font-size: 40px;
+	padding-top: 14px;
+}
+#HeaderRight{
+	width: 50%;
+	height: 80px;
+}
+
+		/* body and menu part */
+																
+#BodyContainer{
+	height: 800px;
+	background-image: url(01_cronus_hero_2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#menu{
+	height: 70px;
+	background-color: #181818;
+	opacity: 0.6;
+	width: 60%;
+	float: left;
+}
+#searchpart{
+	height: 70px;
+	width: 40%;
+	float: left;
+	background-color: #181818;
+	opacity: 0.6;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+ul{
+	margin-left: 12%;
+}
+li{
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	cursor: pointer;
+	float: left;
+}
+#search{
+	height: 25px;
+	width: 200px;
+	border-radius: 25px;
+	opacity: 0.3;
+	margin-top: 26px;
+	margin-left: 30%;
+	float: left;
+}
+#button{
+	background-color: #181818;
+	color: white;
+	height: 25px;
+	width: 60px;
+	cursor: pointer;
+	border-radius: 25px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+	font-size: 15px;
+}
+h1{
+	color: white;
+	text-align: center;
+	padding-bottom: 25px;
+}
+#information{
+	width: 40%;
+	margin-left: 1%;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	float: left;
+}
+p{
+	color: white;
+	font-size: 22px;
+	margin-top: 60px;
+	margin-left: 8%;
+	margin-right: 8%;	
+	text-align: center;
+}
+
+		/* footer part */
+
+footer{
+	height: 300px;
+ 	border: 5px yellow solid;
+ 	clear: both;
+}
+.downDiv{
+	width: calc(100% / 3);
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+#centerContent{
+	border-radius: 200px;
+	border: 3px grey solid;
+	cursor: pointer;
+	margin-top: 20px;
+}
+#centerFont{
+	color: black;
+	font-size: 150%;
+	margin-top: 10px;
+}
+
+		/* hover part  */
+
+li:hover{
+	background-color: orange;
+}
+li:hover{
+	font-size: 140%;
+}
+li:hover{
+    color: black;
+}
+#centerContent:hover{
+	transform: rotate(360deg);
+	transition: 1s;
+}
+
+		/* media query part */
